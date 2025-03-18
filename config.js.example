@@ -1,0 +1,11 @@
+// config.js
+const config = {
+    serverURL: 'http://<url or IP to server>:3000/get-text',  // Server URL for fetching text values
+    imagePaths: {
+        smallContainer: 'http://<url to image>/smallContainer.png',  // Absolute URL for smallContainer.png
+        mediumContainer: 'http://<url to image>/mediumContainer.png',  // Absolute URL for mediumContainer.png
+        largeContainer: 'http:/<url to image>/largeContainer.png'   // Absolute URL for largeContainer.png
+    }
+};
+
+export default config;
